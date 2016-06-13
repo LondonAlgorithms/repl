@@ -1,0 +1,19 @@
+{
+  "name": "algo-repl",
+  "version": "0.1.0",
+  "description": "A REPL for completing algorithm challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LondonAlgorithms/repl.git"
+  },
+  "author": "Daniel Grant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LondonAlgorithms/repl/issues"
+  },
+  "homepage": "https://github.com/LondonAlgorithms/repl#readme"
+}
