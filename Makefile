@@ -7,7 +7,7 @@ rundocker:
 	    docker run -d --name repl_build -it $(ID) bash
 
 mv_files:
-	docker cp repl_build:/usr/src/repl/build/umd build/
+	docker cp repl_build:/usr/src/repl/build/umd build/umd
 
 build_repl:
 	docker build -t repl:latest .
