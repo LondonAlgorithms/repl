@@ -1,0 +1,9 @@
+FROM node:latest
+
+RUN mkdir -p /usr/src/repl
+WORKDIR /usr/src/repl
+
+ADD . /usr/src/repl
+
+RUN npm install
+RUN npm run build
