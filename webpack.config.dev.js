@@ -1,9 +1,9 @@
 const getConfig = require('hjs-webpack');
 
 const config = getConfig({
-  in: 'examples',
+  in: 'index.js',
   out: 'public',
-  clearBeforeBuild: '!(images)'
+  clearBeforeBuild: true
 });
 
 module.exports = config;

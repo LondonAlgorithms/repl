@@ -1,8 +1,7 @@
 {
   "name": "algo-repl",
   "version": "0.1.0",
-  "main": "dist/commonjs/index.js",
-  "jsnext:main": "dist/es/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "cross-env BABEL_ENV=commonjs hjs-dev-server webpack.config.dev.js",
     "clean": "rimraf build",
@@ -15,9 +14,6 @@
   },
   "author": "Daniel Grant",
   "license": "MIT",
-  "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0-0"
-  },
   "devDependencies": {
     "babel-cli": "^6.6.5",
     "babel-core": "^6.6.5",
@@ -28,13 +24,20 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-react-hmre": "^1.1.1",
     "cross-env": "^1.0.7",
+    "css-loader": "^0.23.1",
     "eslint": "^1.10.2",
     "eslint-config-airbnb": "1.0.2",
     "eslint-plugin-react": "^4.1.0",
     "hjs-webpack": "^8.1.0",
+    "postcss-loader": "^0.9.1",
+    "rimraf": "^2.5.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.15"
+  },
+  "dependencies": {
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
-    "rimraf": "^2.5.2",
-    "webpack": "^1.12.15"
+    "react-codemirror": "^0.2.6",
+    "whatwg-fetch": "^1.0.0"
   }
 }
