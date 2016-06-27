@@ -13,3 +13,9 @@ To develop:
 ```
 $ npm start
 ```
+
+To build the `repl` Docker image run:
+
+```
+$ make start_repl
+```
